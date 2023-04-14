@@ -27,6 +27,6 @@ int main()
     namedWindow("color image", WINDOW_AUTOSIZE);
     imshow("color image", img_color);  
     waitKey(0);                        
-    imwrite("color iamge", img_color);
+    imwrite("color image", img_color);
     
 }
