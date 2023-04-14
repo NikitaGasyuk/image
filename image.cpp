@@ -8,7 +8,7 @@ using namespace cv;
 int main()
 {
     // загружаем картинку
-    Mat img_color = imread("C://Users//Nikita//Desktop//eran.jpg", IMREAD_UNCHANGED);
+    Mat img_color = imread("путь к изображению", IMREAD_UNCHANGED);
     // Проверяем, удалось ли загрузить картинку
     if (img_color.empty()) {
         cerr << "Error: Could not open or find the image!\n";
